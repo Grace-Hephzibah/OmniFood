@@ -104,18 +104,17 @@
 }
 
 .span-3-of-4 {
-	width: 73.5%; 
+	width: 74.6%; 
 }
 
 .span-2-of-4 {
-	width: 47%; 
+	width: 49.2%; 
 }
 
 .span-1-of-4 {
-	width: 21.5%; 
+	width: 23.8%; 
 }
 
-/* This actual spacing were 100%, 74.6%, 49.2%, 23.8% */
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
