@@ -118,6 +118,37 @@ h2:after
     margin-bottom: 10px;
 }
 
+.icon-small
+{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /* Secrets to align text amd icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* ----- Links- ----*/
+
+a:link, a:visited
+{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+}
+
+a:hover, a:active
+{
+    color:#cf6d17;
+    border-bottom: 1px transparent #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
 /* ---- Buttons ----*/
 
 .btn:link, .btn:visited
@@ -340,9 +371,30 @@ work-step: last-of-type
     margin-right: 20px;
 }
 
+.btn-app:link, btn-app:visited
+{
+    border: 0;
+}
 .btn-app img
 {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/*-------------------------------------------------------------------*/
+/*---------------- Section 5 - Cities -- --------------------- */
+/*-------------------------------------------------------------------*/
+
+.box img
+{
+    width: 100%;
+    height: auto;
+    
+    margin-bottom:15px;
+}
+
+.city-feature
+{
+    margin-bottom: 5px;
 }
